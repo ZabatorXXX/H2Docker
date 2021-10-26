@@ -32,5 +32,5 @@ textthatshouldnotbeincluded
 
 ###### 3. Beskriv i Dockerfile vem som är "maintainer" genom att använda en instruktion för meta data.
 
-![This is an image](https://1drv.ms/u/s!As9tV0LY9I3_gf1lCyVbpMRxLHY84g)
+!(https://1drv.ms/u/s!As9tV0LY9I3_gf1lCyVbpMRxLHY84g)
 
