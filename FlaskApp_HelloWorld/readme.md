@@ -36,5 +36,5 @@ textthatshouldnotbeincluded
 
 ###### 4.Base image ska vara pythons, men det ska vara baserad på python version 3.9 och alpine 3.13.
 
-![Baseimage](https://user-images.githubusercontent.com/42642927/138880228-0dcb641c-8463-4e7a-88b5-6396ae5e2139.PNG)
+![Baseimage](https://user-images.githubusercontent.com/42642927/138880534-1a20bdde-a29d-4b52-8e70-201a6ded674a.PNG)
 
