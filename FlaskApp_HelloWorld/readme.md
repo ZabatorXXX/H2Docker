@@ -38,3 +38,20 @@ textthatshouldnotbeincluded
 
 ![Baseimage](https://user-images.githubusercontent.com/42642927/138880534-1a20bdde-a29d-4b52-8e70-201a6ded674a.PNG)
 
+###### 5.
+
+app.py:
+
+```
+
+from flask import Flask
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return '<h1>Hello World</h1>'
+
+if __name__=='__main__':
+    app.run(host='0.0.0.0')
+
+```
