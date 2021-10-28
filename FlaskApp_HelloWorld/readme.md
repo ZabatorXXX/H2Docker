@@ -101,3 +101,4 @@ Skapar lokalt med "-p 5000:5000" + IMAGE ID.
 docker run -p 5000:5000 -d 3922c9c19f6b
 
 ```
+![5000_5000HelloWorld](https://user-images.githubusercontent.com/42642927/139224790-29190786-1ddc-485d-8f85-bbdf901e4dd6.png)
