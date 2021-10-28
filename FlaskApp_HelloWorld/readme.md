@@ -68,10 +68,18 @@ mkdir Flask_HelloWorld
 Förflyttar mig till mappen.
 
 ```
-cd Flask_HelloWorld
 
+cd Flask_HelloWorld
 ```
+
 Trycker på  C:\Users\simon\Flask_HelloWorld> med (alt + click) för att öppna mappen i Visual Studio Code. Härefter lägger jag in all kod och specifika filer vi behöver för uppgiften i mappen.
 
 ![BandA](https://user-images.githubusercontent.com/42642927/139214886-ea2cc596-82c4-4f20-bd0f-e9f88a9d27ba.PNG)
 
+Bygger Docker imagen.
+
+```
+
+docker image build -t flask-app .
+
+```
