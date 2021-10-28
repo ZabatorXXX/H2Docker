@@ -64,3 +64,11 @@ Skapar en mapp där jag lägger till koden senare för applikationen.
 mkdir Flask_HelloWorld
 
 ```
+
+Förflyttar mig till mappen.
+
+```
+cd Flask_HelloWorld
+
+```
+Trycker på  C:\Users\simon\Flask_HelloWorld> med (alt + click) för att öppna mappen i Visual Studio Code.
