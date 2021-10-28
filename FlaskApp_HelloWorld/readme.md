@@ -57,6 +57,8 @@ if __name__=='__main__':
 ```
 ## Genomförandet av 2.1
 
+Skapar en mapp där jag lägger till koden senare för applikationen.
+
 ```
 
 mkdir Flask_HelloWorld
