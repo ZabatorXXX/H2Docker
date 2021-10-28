@@ -104,7 +104,14 @@ docker run -p 5000:5000 -d 3922c9c19f6b
 
 ![5000_5000HelloWorld](https://user-images.githubusercontent.com/42642927/139224790-29190786-1ddc-485d-8f85-bbdf901e4dd6.png)
 
-![image](https://user-images.githubusercontent.com/42642927/139227460-afa0bcc4-7ab2-4956-8dd3-3fbe58a197ca.png)
+```
+
+docker ps -a
+
+```
+
+![image](https://user-images.githubusercontent.com/42642927/139227672-5e6868e7-ea49-43d5-a87b-e5a334f55e9b.png)
+
 
 
 Jag tar container ID bad120272ac3 använder gör den till ett nytt repository. 
