@@ -34,11 +34,11 @@ textthatshouldnotbeincluded
 
 ![Maintainer](https://user-images.githubusercontent.com/42642927/138879685-8b23509b-cb20-4a89-b537-c528163f977a.PNG)
 
-###### 4.Base image ska vara pythons, men det ska vara baserad på python version 3.9 och alpine 3.13.
+###### 4. Base image ska vara pythons, men det ska vara baserad på python version 3.9 och alpine 3.13.
 
 ![Baseimage](https://user-images.githubusercontent.com/42642927/138880534-1a20bdde-a29d-4b52-8e70-201a6ded674a.PNG)
 
-###### 5.
+###### 5. När du kör docker run -p 5000:5000 <image id> och går in på localhost:5000 ska det visas "Hello World"
 
 app.py:
 
@@ -130,3 +130,13 @@ docker image ls -a
 ```
 ![image](https://user-images.githubusercontent.com/42642927/139228092-a81b8387-da09-4133-85a8-0d9c3c435b73.png)
 
+###### 6. Pusha imagen till Docker Hub. Imagen som pushas ska ha tag :1.0.
+    
+Loggar in på Docker för annars kommer den inte veta vems konto den ska pusha upp till.
+
+```
+    
+docker login
+    
+```
+![image](https://user-images.githubusercontent.com/42642927/139230340-4918b4a1-594d-4d6b-93a0-ee8e7ac69d6d.png)
