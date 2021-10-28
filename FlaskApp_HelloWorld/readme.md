@@ -83,3 +83,12 @@ Bygger Docker imagen.
 docker image build -t flask-app .
 
 ```
+
+Kollar om den skapades.
+
+```
+
+docker image ls 
+
+```
+![flaskapp](https://user-images.githubusercontent.com/42642927/139223141-f52b11da-4fa9-4778-935f-fb7aec51fd09.PNG)
