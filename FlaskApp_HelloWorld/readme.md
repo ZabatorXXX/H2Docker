@@ -92,3 +92,9 @@ docker image ls
 
 ```
 ![flaskapp](https://user-images.githubusercontent.com/42642927/139223141-f52b11da-4fa9-4778-935f-fb7aec51fd09.PNG)
+
+```
+
+docker run -p 5000:5000 -d 3922c9c19f6b
+
+```
