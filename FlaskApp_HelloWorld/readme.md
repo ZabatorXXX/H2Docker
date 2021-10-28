@@ -121,3 +121,12 @@ Jag tar container ID bad120272ac3 använder gör den till ett nytt repository.
 docker commit bad120272ac3 zabatorxxx/helloworldx-xflaskapp:1.0 
 
 ```
+Söker om repot jag behöver finns.
+
+```
+
+docker image ls -a  
+
+```
+![image](https://user-images.githubusercontent.com/42642927/139228092-a81b8387-da09-4133-85a8-0d9c3c435b73.png)
+
