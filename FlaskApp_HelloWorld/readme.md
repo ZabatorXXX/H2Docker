@@ -140,3 +140,19 @@ docker login
     
 ```
 ![image](https://user-images.githubusercontent.com/42642927/139230340-4918b4a1-594d-4d6b-93a0-ee8e7ac69d6d.png)
+    
+Nu ska vi kunna pusha upp till docker hub. 
+    
+```
+    
+docker login
+    
+``` 
+Pushar upp repot.
+    
+```
+    
+docker push zabatorxxx/helloworldx-xflaskapp:1.0
+    
+``` 
+![image](https://user-images.githubusercontent.com/42642927/139231461-962253bb-8c58-48ea-8ffc-6a63956777bb.png)
