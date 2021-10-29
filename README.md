@@ -1,25 +1,48 @@
 # Del 1, Teoretiskt 
 
-Vad är Docker(plattformen)? 
+## 1.1 Docker och containerteknologi
+
+1. Vad är Docker(plattformen)? 
 
 Docker är en applikation som gör det möjligt för oss att kunna bygga, fördela och administrera upp containrar med hjälp av Docker kod. 
 
-Vad är en Docker Image och hur relaterar en sådan till Docker Containers? 
+2. Vad är en Docker Image och hur relaterar en sådan till Docker Containers? 
 
 
-Vad innebär containerteknologi? 
+3. Vad innebär containerteknologi? 
 
 Att man kan köra olika program i olika små datorer som är ihopkopplade i ett nätverk. 
 
-Vad är Docker Registry? 
+4. Vad är Docker Registry? 
 
 Docker Registry är en ”server side” applikation lagrar och distribuerar Docker images. Registret är ”stateless”, mycket skalbar som är open-source, under ”permissive” Apache license. 
 
-Hur lyder Docker Linux Kernels arbetsbeskrivning (vad den gör och hur det går till)? 
+5. Hur lyder Docker Linux Kernels arbetsbeskrivning (vad den gör och hur det går till)? 
 
 
-På vilket sätt kan Docker och Docker Containers jämföras med fartygstransporter? 
+6. På vilket sätt kan Docker och Docker Containers jämföras med fartygstransporter? 
 
 Docker är själva fartyget behöver bensin för att drivas som är datorprocessorn samt docker. Det här hjälper cotainrarna ombord att kunna bli förflyttade(levererade/användbara). 
 
-Vad händer när vi har en Dockerfile och kör "docker build ."? Gå igenom build-processen 
+7. Vad händer när vi har en Dockerfile och kör "docker build ."? Gå igenom build-processen 
+
+
+## 1.2 Docker Client
+
+En container föds 
+
+Docker create  
+
+Docker Run 
+
+Docker start 
+
+(Started State) 
+
+Docker stop 
+
+Docker restart 
+ 
+Docker stop 
+
+## 1.3 DOCKER COMPOSE 
