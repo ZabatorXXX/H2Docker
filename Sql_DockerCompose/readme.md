@@ -119,3 +119,11 @@ SELECT * FROM books;
 
 ![8 9](https://user-images.githubusercontent.com/42642927/140331749-091d0be8-41fe-4c06-80ab-216ce3975e83.png)
 
+### 10 . Stänger ner docker-compose
+  
+```
+
+docker-compose down
+
+```
+![image](https://user-images.githubusercontent.com/42642927/140385459-480ae462-b383-4d83-a858-7de472d41b21.png)
