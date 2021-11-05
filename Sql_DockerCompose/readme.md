@@ -128,8 +128,14 @@ docker-compose down
 ```
 ![image](https://user-images.githubusercontent.com/42642927/140385459-480ae462-b383-4d83-a858-7de472d41b21.png)
  
-### 11 . Startar om en docker-compose i backrunden för att senare loga in i gen i mydb. 
+### 11 . Startar om en docker-compose i backrunden för att senare logar in igen i mydb. 
   
 ![image](https://user-images.githubusercontent.com/42642927/140496050-36c799a1-9bfa-4a32-898d-a1ee422e6407.png)
+  
+![image](https://user-images.githubusercontent.com/42642927/140496622-8678594a-8f94-4af2-9338-83dd453df815.png)
 
+![image](https://user-images.githubusercontent.com/42642927/140496861-2609220d-cdf2-43b0-afad-79c80f9f58b5.png)
 
+### 12 . När jag är väl inne i mydb("mysql") söker jag på SELECT title FROM books WHERE id=1; .
+  
+  
