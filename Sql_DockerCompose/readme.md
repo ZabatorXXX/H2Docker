@@ -136,7 +136,7 @@ docker-compose down
 
 ![image](https://user-images.githubusercontent.com/42642927/140496861-2609220d-cdf2-43b0-afad-79c80f9f58b5.png)
 
-### 12 . När jag är väl inne i mydb("mysql") söker jag på SELECT title FROM books WHERE id=1; .
+### 12 . När jag är väl är inne i mydb("mysql") söker jag på SELECT title FROM books WHERE id=1; . 
   
 ![image](https://user-images.githubusercontent.com/42642927/140497279-b51e0cf9-1933-40cd-9b38-25d0564c1690.png)
  
