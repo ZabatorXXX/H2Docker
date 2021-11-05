@@ -47,6 +47,7 @@ cd nginx-docker-multi-stage-build
 ### 3. Skriver in “npm start” för live-reload och andra funktiner.
 
 Vilket resulterade till :
+
 ![image](https://user-images.githubusercontent.com/42642927/140574678-77897d77-7c94-4c3f-9229-76765df7a504.png)
 ![image](https://user-images.githubusercontent.com/42642927/140574642-fcea44f6-d442-48bd-bcda-e4e1c81c611e.png)
 
