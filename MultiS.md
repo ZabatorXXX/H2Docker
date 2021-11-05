@@ -25,4 +25,7 @@ server {
 
 ```
 
-### 1. Bygg en image utfifrån din Dockerfile
+### 1. Skappar ett repository till react som jag vill använda
+
+![image](https://user-images.githubusercontent.com/42642927/140572995-c1112634-1676-4b2a-87b2-c4037726055b.png)
+
