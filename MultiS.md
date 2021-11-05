@@ -25,7 +25,13 @@ server {
 
 ```
 
-### 1. Skappar ett repository till react som jag vill använda
+### 1. Skapar ett repository "nginx-docker-multi-stage-build" för react som jag vill använda mig av. 
+
+```
+
+npx create-react-app nginx-docker-multi-stage-build
+
+```
 
 ![image](https://user-images.githubusercontent.com/42642927/140572995-c1112634-1676-4b2a-87b2-c4037726055b.png)
 
