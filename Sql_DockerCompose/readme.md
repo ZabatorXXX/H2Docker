@@ -127,3 +127,9 @@ docker-compose down
 
 ```
 ![image](https://user-images.githubusercontent.com/42642927/140385459-480ae462-b383-4d83-a858-7de472d41b21.png)
+ 
+### 11 . Startar om en docker-compose i backrunden för att senare loga in i gen i mydb. 
+  
+![image](https://user-images.githubusercontent.com/42642927/140496050-36c799a1-9bfa-4a32-898d-a1ee422e6407.png)
+
+
