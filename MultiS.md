@@ -73,3 +73,14 @@ docker ps -a
 
 ![image](https://user-images.githubusercontent.com/42642927/140614956-0fa6914b-f866-47a2-a775-3126b68b7063.png)
 
+### 6. Kör igång en container.
+
+```
+
+docker run -p 8080:80 nginx
+
+```
+
+![image](https://user-images.githubusercontent.com/42642927/140615058-e80f7f70-bad6-4032-988a-0b5cb66675a8.png)
+
+
