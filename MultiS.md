@@ -68,3 +68,4 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
+![image](https://user-images.githubusercontent.com/42642927/140615877-cd82a802-d1fe-4198-af90-f3a6995797b5.png)
