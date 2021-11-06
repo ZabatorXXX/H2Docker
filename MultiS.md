@@ -103,3 +103,30 @@ Docker run -p 80:80 -v ${pwd}:/usr/share/nginx/html 80e195c2528f
 
 ![image](https://user-images.githubusercontent.com/42642927/140616907-95da706a-350b-4ec5-b4e3-76a729aee9a0.png)
 
+### 7. Går till http://localhost/ :
+
+Resultat ett innan förändrat index filen: 
+
+```
+
+<h1>Hello World</h1>
+
+```
+
+![image](https://user-images.githubusercontent.com/42642927/140617099-849d19b7-f379-4f19-80b5-3d8bbaa8592b.png)
+
+![image](https://user-images.githubusercontent.com/42642927/140617020-81295592-2072-4e2d-9b7e-850e784e6557.png)
+
+
+Resultat två efter ändrad index fil och laddat om localhost: 
+
+```
+
+<h1>Hello Woorlds</h1>
+
+```
+
+![image](https://user-images.githubusercontent.com/42642927/140617224-c1086f09-4c72-43d9-b3c3-0b66f4bb5871.png)
+
+![image](https://user-images.githubusercontent.com/42642927/140617233-00db0ae9-f465-468c-9f78-237e55e4921d.png)
+
