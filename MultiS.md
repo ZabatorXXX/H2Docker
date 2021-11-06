@@ -126,7 +126,7 @@ Resultat två efter ändrad index fil och laddat om localhost:
 
 ```
 
-![image](https://user-images.githubusercontent.com/42642927/140617224-c1086f09-4c72-43d9-b3c3-0b66f4bb5871.png)
+![image](https://user-images.githubusercontent.com/42642927/140617272-a0e5bb6e-b522-4173-8e0b-961f6ef928e7.png)
 
 ![image](https://user-images.githubusercontent.com/42642927/140617233-00db0ae9-f465-468c-9f78-237e55e4921d.png)
 
