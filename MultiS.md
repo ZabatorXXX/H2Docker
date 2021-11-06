@@ -45,4 +45,26 @@ cd nginx-docker-multi-stage-build
 
 ![image](https://user-images.githubusercontent.com/42642927/140612529-9672093a-0ca0-4941-a89e-22c13cd0c906.png)
 
-### 4. 
+### 4. Bygger Dockerfile med:
+
+´´´
+
+# build environment
+FROM node:14-alpine as Wbuild
+
+WORKDIR /app
+
+COPY . .
+
+RUN yarn
+
+RUN yarn build
+
+# production environment
+FROM nginx:stable-alpine
+COPY --from=Wbuild /app/build /usr/share/nginx/html
+COPY --from=Wbuild /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf
+EXPOSE 80
+CMD ["nginx", "-g", "daemon off;"]
+
+´´´
