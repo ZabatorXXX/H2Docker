@@ -56,16 +56,45 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn
+RUN npm install
 
-RUN yarn build
+RUN npm build
 
 # production environment
 FROM nginx:stable-alpine
-COPY --from=Wbuild /app/build /usr/share/nginx/html
-COPY --from=Wbuild /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf
+
+COPY ./nginx.conf ./etc/nginx/conf.d/default.conf
+
+COPY --from=Wbuild ./ /usr/share/nginx/html
+
 EXPOSE 80
+
 CMD ["nginx", "-g", "daemon off;"]
 
 ```
-![image](https://user-images.githubusercontent.com/42642927/140615877-cd82a802-d1fe-4198-af90-f3a6995797b5.png)
+
+![image](https://user-images.githubusercontent.com/42642927/140616490-272a53d9-3a9d-4aa3-85b3-93b3996d9dbc.png)
+
+### 5. Bygger upp container utifrån våran dockerfile.
+
+```
+
+docker build -t nginx-docker-multi-stage-build:1.0 .
+
+```
+
+### 6. Kör container som "non-root user".
+
+Imagen jag ska använda:
+
+```
+
+
+
+```
+
+```
+
+Docker run -p 80:80 -v ${pwd}:/usr/share/nginx/html 
+
+```
