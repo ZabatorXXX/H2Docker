@@ -118,7 +118,7 @@ Resultat ett innan förändrat index filen:
 ![image](https://user-images.githubusercontent.com/42642927/140617020-81295592-2072-4e2d-9b7e-850e784e6557.png)
 
 
-Resultat två efter ändrad index fil och laddat om localhost: 
+Resultat två efter ändrad index fil och laddat om http://localhost/: 
 
 ```
 
