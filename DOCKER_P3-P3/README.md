@@ -1,3 +1,5 @@
+### 1. Grundläggande.
+
 Skapar directorty
 
 ```
@@ -5,6 +7,14 @@ Skapar directorty
 mkdir DOCKER_P3-P3
 
 ```
+Förflyttar mig till mappen.
+
+```
+
+cd DOCKER_P3-P3
+
+```
+
 
 Skapar upp dockerfile, app.py och :
 
@@ -43,6 +53,7 @@ requirements.txt
 Flask==2.0.1
 
 ```
+### 2. Flask app 2.0 med CI CD
 
 Bygger Docker imagen.
 
@@ -83,6 +94,8 @@ docker ps -a
 
 ![image](https://user-images.githubusercontent.com/42642927/140625683-61f1e5b4-d380-4f69-bd86-58804f5e4de5.png)
 
+### 3. Lokala repot jag ska använda mig av. 
+
 Jag tar container ID b56747f13c27 använder gör den till ett nytt repository.
 
 ```
@@ -97,9 +110,12 @@ Söker om repot jag behöver finns.
 
 ![image](https://user-images.githubusercontent.com/42642927/140625796-ac21254e-1d08-4f9a-a5c3-dca343f9ef87.png)
 
+### 4. CI CD med Github Action
+
 Gör en Github Action miljö som är våran CI CD del för projekt.
 
 ![image](https://user-images.githubusercontent.com/42642927/140624016-9df9487f-7cc7-4cb9-a966-3bd1027ecaff.png)
+
 
 
 ```
