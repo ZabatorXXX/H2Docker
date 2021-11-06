@@ -83,4 +83,7 @@ docker run -p 8080:80 nginx
 
 ![image](https://user-images.githubusercontent.com/42642927/140615058-e80f7f70-bad6-4032-988a-0b5cb66675a8.png)
 
+### 7. Går till http://localhost:8080/
+
+![image](https://user-images.githubusercontent.com/42642927/140615107-2998c42e-888f-457f-9871-8a1f945cc703.png)
 
