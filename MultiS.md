@@ -47,7 +47,7 @@ cd nginx-docker-multi-stage-build
 
 ### 4. Bygger Dockerfile med:
 
-´´´
+```
 
 # build environment
 FROM node:14-alpine as Wbuild
@@ -67,4 +67,4 @@ COPY --from=Wbuild /app/nginx/nginx.conf /etc/nginx/conf.d/default.conf
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 
-´´´
+```
