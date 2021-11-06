@@ -89,12 +89,17 @@ Imagen jag ska använda:
 
 ```
 
-
-
-```
+docker images
 
 ```
 
-Docker run -p 80:80 -v ${pwd}:/usr/share/nginx/html 
+![image](https://user-images.githubusercontent.com/42642927/140616849-447cb223-e138-452e-bf1e-b777738d1b77.png)
 
 ```
+
+Docker run -p 80:80 -v ${pwd}:/usr/share/nginx/html 80e195c2528f
+
+```
+
+![image](https://user-images.githubusercontent.com/42642927/140616907-95da706a-350b-4ec5-b4e3-76a729aee9a0.png)
+
