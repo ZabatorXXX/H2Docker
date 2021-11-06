@@ -80,4 +80,7 @@ docker ps
 
 ![image](https://user-images.githubusercontent.com/42642927/140613228-1947ba40-7508-4b03-b2ca-843eccb9e4ad.png)
 
+### 7. Ser om "Hello World" visas. 
+
+![image](https://user-images.githubusercontent.com/42642927/140613320-b52edee1-1609-44c3-94f1-6327c9f95320.png)
 
