@@ -29,11 +29,9 @@ server {
 
 ```
 
-npx create-react-app nginx-docker-multi-stage-build
+mkdir nginx-docker-multi-stage-build
 
 ```
-
-![image](https://user-images.githubusercontent.com/42642927/140572995-c1112634-1676-4b2a-87b2-c4037726055b.png)
 
 ### 2. Förflyttar mig till repot.
 ```
@@ -42,15 +40,6 @@ cd nginx-docker-multi-stage-build
 
 ```
 
-![image](https://user-images.githubusercontent.com/42642927/140573694-779034f6-e97c-43a6-bb4a-a36734dfa59c.png)
+### 3. Skapar upp filerna index.html och nnginx.conf i mappen. 
 
-### 3. Skriver in “npm start” för live-reload och andra funktiner.
-
-Vilket resulterade till:
-
-![image](https://user-images.githubusercontent.com/42642927/140574678-77897d77-7c94-4c3f-9229-76765df7a504.png)
-![image](https://user-images.githubusercontent.com/42642927/140574642-fcea44f6-d442-48bd-bcda-e4e1c81c611e.png)
-
-### 4.
-
-![index_BefandAft](https://user-images.githubusercontent.com/42642927/140577041-711dde4b-1907-4af1-8415-7d4fd98192ae.png)
+![image](https://user-images.githubusercontent.com/42642927/140612529-9672093a-0ca0-4941-a89e-22c13cd0c906.png)
