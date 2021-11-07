@@ -65,12 +65,12 @@ Docker stop
 | container_name: flaskcontainer  | Här namnger vi containern till flaskcontainer   |
 | build:  | Bygger/Skapar Docker-compose   |
 | context: ./app  | Hittar var “Dockerfile” finns I projektet   |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| dockerfile:  | Vilken fil som bör användas “dev-dockerfile”   |
+| ports:  | Ports vi vill använda oss av    |
+| - "5000:5000"  | Port ser 5000 från lokala och ser 5000 från container. Port strukturen   |
+| depends_on: - db  | Att den behöver bygga “db” först   |
+| networks: - flask_app_net  | Visar vilket nätverk som ska användas   |
+| db:  | Service 2   |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
