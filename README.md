@@ -71,6 +71,12 @@ Docker stop
 | depends_on: - db  | Att den behöver bygga “db” först   |
 | networks: - flask_app_net  | Visar vilket nätverk som ska användas   |
 | db:  | Service 2   |
+| container_name: dbcontainer  | Här namnger vi container till dbcontainer   |
+| image: postgres:latest  | Tar fram senaste versionen av postgres från Docker hub   |
+| restart: always  | En riktlinje   |
+| environment:  | Environment variabler vi kan använda   |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
