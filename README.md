@@ -27,6 +27,9 @@ Docker är själva fartyget behöver bensin för att drivas som är datorprocess
 
 7. Vad händer när vi har en Dockerfile och kör "docker build ."? Gå igenom build-processen 
 
+Docker build . Innebär att vi vill använda en docker fil som ligger i vårat repo vi är i. Bygg prosesen tar hand om instruktioner vi har get den som exempl att “RUN pip3 install” och “-r requirements.txt”. När filen kör “RUN pip3 install” installeras pip3 till container men “-r requirements.txt” gör så container läser filen requirements.text innerhåll. 
+
+Mängden bygg steg varierar beroende på hur många instruktioner vi till delar den att använda sig av. 
 
 ## 1.2 Docker Client
 
