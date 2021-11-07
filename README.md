@@ -58,9 +58,9 @@ Docker stop
 ## 1.3 DOCKER COMPOSE 
 
 | Command | Description |
-| ---     | ---         |
-| ---     | ---         |
-| ---     | ---         |
+| version: "3.8" | Version av docker compouse |
+| services: | Var vi lagrar vilka “services” vi vill köra |
+| flask: | Service 1 |
 | ---     | ---         |
 | ---     | ---         |
 | ---     | ---         |
