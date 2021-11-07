@@ -153,4 +153,20 @@ jobs:
 
 ```
 
-https://www.youtube.com/watch?v=09lZdSpeHAk&t=583s
+### 5. "Actions secrets" för lösenord för Docker och användare. 
+
+
+```
+
+     - name: docker login
+       env:
+         DOCKER_USER: ${{ secrets.DOCKER_USER }}
+         DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+       run: |
+         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
+
+```
+![image](https://user-images.githubusercontent.com/42642927/140639409-190fd270-e323-44bc-904a-9d064c97da81.png)
+
+![image](https://user-images.githubusercontent.com/42642927/140639441-1e44ad04-08a1-4549-9e6b-258132bde5b0.png)
+
