@@ -75,9 +75,13 @@ Docker stop
 | image: postgres:latest  | Tar fram senaste versionen av postgres från Docker hub   |
 | restart: always  | En riktlinje   |
 | environment:  | Environment variabler vi kan använda   |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| POSTGRES_DB: mydb  | Namnger postges variablen till mydb  |
+| POSTGRES_PASSWORD: postgres  | Gör postges variabeln till lösenord   |
+| POSTGRES_USER  | Använder postges variabeln som användare   |
+| volumes: - postgres_data:/var/lib/postgresql/data/  | För att länka med de lokala filerna till “DB”   |
+| networks: - flask_app_net  | Vilket nätverk som vi ska använd   |
+| networks:  | Vårt nätverk  |
+| flask_app_net:  | Vad vi har namngett nätverket vi använder  |
+| driver: bridge  | Vilken driver vi vill använda, “bridge driver”   |
+| volumes:  | Gör en lokal volym   |
+| postgres_data:  | Vilket namn vi gav den lokala volymen till   |
