@@ -172,8 +172,12 @@ jobs:
 
 
 ### 6. "docker push" för att se på docker hub.
+
 ```
      - name: docker push
        run: |
          docker push zabatorxxx/hellotherex-xflask_cicd_app:1.0
 ```
+
+![image](https://user-images.githubusercontent.com/42642927/140639828-d8d8b0b6-762f-40a2-8ac3-2f5a608d9d64.png)
+
