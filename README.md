@@ -8,6 +8,7 @@ Docker är en applikation som gör det möjligt för oss att kunna bygga, förde
 
 2. Vad är en Docker Image och hur relaterar en sådan till Docker Containers? 
 
+Image där våra specifikationer finns som ser till att vi kan köra våran docker container med vad vi behöver. Helt enkelt en instruktionsbok om vad som behövs. Innehåller programkoden till applikationen, verktygen, de olika länkarna i produkten(dependencies), filer för applikationen att fungera och “libraries”. 
 
 3. Vad innebär containerteknologi? 
 
