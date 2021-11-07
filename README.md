@@ -20,6 +20,12 @@ Docker Registry är en ”server side” applikation lagrar och distribuerar Doc
 
 5. Hur lyder Docker Linux Kernels arbetsbeskrivning (vad den gör och hur det går till)? 
 
+En Kernelen till delas till olika seperata containrar. Till skillnad från en VM som har var sin kernal. 
+
+![image](https://user-images.githubusercontent.com/42642927/140646682-1feeba0f-ee24-4154-98ae-f508dca7fb27.png)
+
+![image](https://user-images.githubusercontent.com/42642927/140646880-54920d92-70c0-46ab-b5e7-046d55cff5e5.png)
+
 
 6. På vilket sätt kan Docker och Docker Containers jämföras med fartygstransporter? 
 
