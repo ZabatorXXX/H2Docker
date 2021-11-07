@@ -62,5 +62,16 @@ Docker stop
 | version: "3.8"  | Version av docker compouse  |
 | services:  | Var vi lagrar vilka “services” vi vill köra  |
 | flask:  | Service 1 |
+| container_name: flaskcontainer  | Här namnger vi containern till flaskcontainer   |
+| build:  | Bygger/Skapar Docker-compose   |
+| context: ./app  | Hittar var “Dockerfile” finns I projektet   |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
 | Content Cell  | Content Cell  |
